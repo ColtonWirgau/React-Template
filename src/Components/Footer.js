@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 function Footer() {
-    return (
-        <footer>
-            <section>
-                This is the footer
-            </section>
-        </footer>
-    )
+	return (
+		<footer>
+			<section>
+				<a className="phone icon" href="mailto: wendell@mclaughlininsurancegroup.com">
+					Email
+				</a>
+				<a className="phone icon" href="tel:6155963349">
+					Call
+				</a>
+			</section>
+		</footer>
+	);
 }
 
-export default Footer
+export default Footer;
